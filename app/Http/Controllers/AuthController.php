@@ -63,7 +63,7 @@ class AuthController extends Controller
                     'token_type' => 'Bearer',
                 ]
             ]
-        ], 500);
+        ], 200);
     }
 
     public function login(Request $request)
